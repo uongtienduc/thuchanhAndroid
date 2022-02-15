@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lock"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="178dp"
+        android:layout_height="104dp"
+        android:gravity="center"
+        android:text="FORGET PASSWORD"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="373dp"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:text="Provide your account’s email for which you want to reset your password"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="347dp"
+        android:layout_height="52dp"
+        android:text="NEXT"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:backgroundTint="#FFC107"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="347dp"
+        android:layout_height="52dp"
+        android:text="Email"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:backgroundTint="#A8A499"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
